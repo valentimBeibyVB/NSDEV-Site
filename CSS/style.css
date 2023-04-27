@@ -491,9 +491,10 @@ body.menu-expanded ul .social {
 }
 @media(min-width:1000px){
      .Experience{
-        height: 64.4rem;
+        height: 50.4rem;
         background: var(--Lightest-color);
-        color: var(--Gray-color);      
+        color: var(--Gray-color);
+        margin: 0;     
     } 
     .Experience .skills{
         height: 39.6rem;
@@ -509,6 +510,7 @@ body.menu-expanded ul .social {
     .Experience .skills .groupText h3{
         font-size: 24px;
         line-height: 28px;
+        margin-bottom: 3.9rem;
     }
     .Experience .skills .groupText h2{
         width: 40rem;
@@ -527,11 +529,16 @@ body.menu-expanded ul .social {
         display: flex;
     }
     .skills .groupExp {
-        margin: 0;
+        margin-top: 7rem;
     }
     .exp{
         display: flex;
         gap: 0.812rem;
+    }
+
+    .exp div {
+        display: flex;
+        flex-direction: column;
     }
     
     .groupExp .exp h2{
@@ -550,8 +557,19 @@ body.menu-expanded ul .social {
         display: r;
         flex-direction: row;
     }
-    
-   
+    .call1{
+    height: 16rem;
+    padding:4.4rem;
+    background: var(--Dark-color);
+    }
+    .call1 p{
+        font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    }
 }
 
 .call1{
