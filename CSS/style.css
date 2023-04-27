@@ -59,6 +59,7 @@
         margin-top: 4.4rem;
         cursor: pointer;
         transition: ease-in-out .5s;
+        color: #FFFFFF;
     }
 
     button:hover {
@@ -530,13 +531,14 @@ body.menu-expanded ul .social {
     }
     .skills .groupExp {
         margin-top: 7rem;
+        margin-inline: 16rem;
     }
     .exp{
         display: flex;
         gap: 0.812rem;
     }
 
-    .exp div {
+    .column{
         display: flex;
         flex-direction: column;
     }
@@ -553,8 +555,8 @@ body.menu-expanded ul .social {
     }
     .skills .groupExp .exp  p{
         text-align: left;
-        padding-bottom: 0;
-        display: r;
+        padding: 0;
+        display: flex;
         flex-direction: row;
     }
     .call1{
@@ -587,10 +589,11 @@ body.menu-expanded ul .social {
     height: 23.3rem;
     background: var(--Dark-color);
 }
+
 .project{
-    height: 104.2rem;
     align-items: center;
     text-align: center;
+    padding-inline: 2.3rem;
 
 }
 .project h2{
@@ -603,12 +606,129 @@ body.menu-expanded ul .social {
 }
 
 .project p{
-    
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
+    padding-top: 3.3rem; 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
 
-color: var(--Gray-color);
+    color: var(--Gray-color);
+}
+
+.card {
+    width: 38.3rem;
+    height: 36rem;
+    margin: 2.6rem auto;
+    box-shadow: 0px 0px 12px 0px rgba(0.5, 0.4, 0.2, 0.2);
+    padding: 10px  1px;
+}
+ .CardWarper .card h4{
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    margin: 1.6rem 0 1rem 1rem;
+    text-align: left;
+    color: #000000;
+}
+ .CardWarper .card p{
+
+    width: 373px;
+    height: 45px;
+    text-align: left;
+
+    margin: -3rem 0 0 1rem;
+    font-size: 13px;
+    line-height: 15px;
+    line-height: 19px;
+    color:var(--Gray-color);
+}    
+@media(min-width:1000px){
+    .CardWarper{
+    width: 122.3rem;
+    height: 36rem;
+    display: flex;
+    margin: 2rem auto;
+    }
+}
+.call2{
+    height: 65rem;
+    background: var(--Dark-color);
+    align-items: center;
+    padding-inline: 3rem;
+}
+.call2 h2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+ 
+    color: #FFFFFF;
+
+    padding-top: 14.5rem;
+}
+.call2 p{
+   
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-block: 4rem;
+}
+.call2 button{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.parceiro{
+    height: 40.3rem;
+    background: url(../img/Parceiro.png);
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.parceiro h2{
+    font-weight: 700;
+    padding-top: 8rem;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+footer{
+    height: 54.3rem;
+    align-items: center;
+    text-align: center;
+
+    background:var(--Dark-color);
+}
+footer .logo{
+    padding-top: 6.2rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+footer .linecenter1{
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+}
+footer .linecenter2{
+    display: flex;
+    margin: 0 auto;
+}
+footer .baixo{
+    display: flex;
+    margin: -0 auto;
+    margin-bottom: 3rem;
+}
+footer .h2{
+    margin-top: 5.3rem;
+}
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 2rem;
 }
