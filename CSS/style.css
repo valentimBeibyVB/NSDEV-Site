@@ -559,22 +559,56 @@ body.menu-expanded ul .social {
     }
     .call1{
     height: 16rem;
-    padding:4.4rem;
+    display: flex;
     background: var(--Dark-color);
     }
     .call1 p{
-        font-weight: 400;
+    font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    display: flex;
+    padding:4.4rem;
     align-items: center;
     letter-spacing: 0.05em;
+    }
+    .call1 button{
+        width: 190px;
+        height: 59px;
+        position: relative;
+        top:-1rem;
+        border: none;
+        outline: none;
+        margin-top: 4.4rem;
+        cursor: pointer;
     }
 }
 
 .call1{
+    padding:4.4rem; 
     height: 23.3rem;
-    padding:4.4rem;
     background: var(--Dark-color);
 }
+.project{
+    height: 104.2rem;
+    align-items: center;
+    text-align: center;
 
+}
+.project h2{
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 7.1rem;
+    color: #000000;
+}
+
+.project p{
+    
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: var(--Gray-color);
+}
