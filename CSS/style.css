@@ -16,9 +16,8 @@
         --Yellow-color: #fcd34d;
         --Gree-color: #81cbb5;
     }
-
-    /* gerais */
-    * {
+/* gerais */
+* {
         padding: 0;
         margin: 0;
         box-sizing: 0;
@@ -148,7 +147,7 @@ body.menu-expanded ul .social {
 
 /* banner */
 
-.banner {
+.banner{
     position: relative;
     top: 10.2rem;
 
@@ -652,7 +651,65 @@ body.menu-expanded ul .social {
     display: flex;
     margin: 2rem auto;
     }
+    .call2{
+        margin-top: 8rem;
+        height: 144rem;
+        background: var(--Dark-color);
+        align-items: center;
+        padding-inline: 3rem;
+    }
+    .call2 h2{
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        
+        color: #FFFFFF;           
+        padding-top: 14.5rem;
+    }
+    .grande{
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 85px;
+    }
+    .call2 p{
+       
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        padding-block: 4rem;
+    }
+    .parceiro{
+        height: 40.3rem;
+        background-position: center;
+        background-repeat: no-repeat;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile{
+        display: none;
+    }
+     .desktop{
+        display: block;
+    }
+    .parceiro h2{
+        font-weight: 700;
+        padding-top: 8rem;
+        font-size: 24px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+        display: block;
+        color: #000000;
+    }
+   
 }
+.mobile{
+    display: none;
+}
+
 .call2{
     height: 65rem;
     background: var(--Dark-color);
@@ -679,23 +736,13 @@ body.menu-expanded ul .social {
     font-size: 24px;
     line-height: 28px;
 }
+/* .desktop{
+    display: none;
+}
+.mobile{
+    display: flex;
+} */
 
-.parceiro{
-    height: 40.3rem;
-    background: url(../img/Parceiro.png);
-    background-position: center;
-    background-repeat: no-repeat;   
-}
-.parceiro h2{
-    font-weight: 700;
-    padding-top: 8rem;
-    font-size: 24px;
-    line-height: 28px;
-    align-items: center;
-    text-align: center;
-    display: block;
-    color: #000000;
-}
 footer{
     height: 54.3rem;
     align-items: center;
@@ -731,4 +778,311 @@ footer p{
     font-size: 14px;
     line-height: 17px;
     margin-top: 2rem;
+}
+
+/* Abourt */
+
+.bruk{
+    display: block;
+    position: relative;
+    top: 10.2rem;
+    text-align: left;
+}
+
+.abourt{
+    padding-inline: 3.5rem;
+    position: relative;
+    top: 14.5rem;
+    text-align: center;
+    align-items: center;
+}
+.abourt h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: var(--Gray-color);
+}
+.abourt h2{
+    margin-block: 5rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+}
+.abourt p{
+    margin-block: 2rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+   
+    color: var(--Gray-color);
+}
+.Cardteam-Warper,.Cardteam-Warper2{
+    margin: 0rem auto 20rem auto;
+    width: 270px;
+    
+}
+.cardteam {
+    width: 27rem;
+    height: 36rem;
+    margin: 2.6rem auto;
+    box-shadow: 0px 0px 12px 0px rgba(0.5, 0.4, 0.2, 0.2);
+    padding: 10px  1px;
+}
+ .Cardteam-Warper .cardteam h4, .Cardteam-Warper2 .cardteam h4{
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    margin: 1.1rem 0 0.5rem 1rem;
+    text-align: left;
+    color: #000000;
+}
+ .Cardteam-Warper .cardteam p,.Cardteam-Warper2 .cardteam p{
+    text-align: left;
+
+    margin: 0rem 0 0 1rem;
+    font-size: 13px;
+    line-height: 15px;
+    line-height: 19px;
+    color:var(--Gray-color);
+}
+ .socialteam{
+    position: relative;
+    top: 1rem;
+    right: 9.5rem;
+}
+.abourt-imagem{
+    display: none;
+}
+.Cardteam-Warper2{
+    display: none;
+}
+@media(min-width:1000px){
+    .abourt{
+        padding-inline: 21.7rem;
+        padding-block: 20rem;
+        position: relative;
+        top: 14.5rem;
+        text-align: center;
+        align-items: center;
+    }
+    .abourt .grupotext{
+        display: flex;
+        flex-direction: column;
+        width: 65rem;
+        height: 5rem;
+        margin-bottom: 11.3rem;
+    }
+    .abourt .grupotext h2{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 71px;
+        display: flex;
+        text-align: left;
+        letter-spacing: 0.05em;
+        
+    }
+    .abourt p{
+        text-align: left;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .abourt-imagem{
+        position: relative;
+        display: block;
+        top: -7rem;
+        left: 80rem;
+    }
+    .why{
+        width: 1215px;
+        height: 435px;
+        margin-top:20.2rem;
+        margin-bottom: 10rem;
+        margin-inline: 11.2rem;
+        display: flex;
+    }
+    .why .text{
+        padding-left:10rem;
+    }
+    .Cardteam-Warper,.Cardteam-Warper2{
+        height:20rem;
+        width: 116rem;
+        display: flex;
+    }
+}
+/* end abourt */
+
+/* service */
+
+.preco{
+    padding-inline:1.3rem
+}
+.preco  p{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--Gray-color);
+    padding-inline: 3.4REM;
+}
+.pp{
+    margin: 20.4rem 0 7rem 0;
+
+}
+
+
+.preco h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+
+    margin:2rem 5rem;
+}
+
+.preco .cardpreco{
+
+    margin:6rem  auto 0 auto;
+    width: 350px;
+    height: 73.5rem;
+    border: 3px solid #87C232;
+}
+.preco  h1{
+   
+    margin: 2.8rem  auto 6.4rem auto;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    
+    color: #282828;
+}
+.valor{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    margin:0 -4rem 0rem 0.5rem;
+    color: #87C232;
+}
+.min{
+    position:absolute;
+    margin:0.09rem 2rem 7rem -4rem;
+    
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #282828;
+}
+.serv p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-align: left;
+    margin: 2rem 3.5rem 0 3.5rem;
+}
+.serv .valoServ{
+    position: relative;
+    font-weight: 700;
+    color: #000000;
+    left: 3rem;
+}
+
+.cardpreco2 {
+    width: 35rem;
+    height: 25.4rem;
+    box-shadow: 0px 0px 12px 0px rgba(0.5, 0.4, 0.2, 0.2);
+    padding: 10px 3.2REM;
+    margin: 2rem auto;
+}
+.cardpreco2 h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: left;
+    margin: 0rem 0.5rem;
+}
+.cardpreco2 p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--Gray-color);
+    text-align: left;
+    padding: 0.5rem;
+}
+.cardpreco2 ul{
+    margin-top: 2rem;
+}
+.cardpreco2 li{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--Gray-color);
+    text-align: left;
+    margin-inline: 2rem;
+}
+.cardpreco2 button{
+    width: 162.89px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    background: var(--Primary-color);
+    border-radius: 78px;
+    margin-block: 3rem;
+}
+.cardpreco2 .valoCard{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--Primary-color);
+
+    text-align: left;
+}
+.cardpreco3-wranper{
+    display: none;
+}
+
+@media(min-width:1000px){
+    .preco{
+        padding-inline: 9.4rem;
+    }
+    .cardpreco2-wranper,.cardpreco3-wranper, .cardpreco-wranper{
+        display: flex;
+        margin-inline: 9.4rem;
+    }
+    .cardpreco2 {
+        margin-inline: 2rem;
+    }
+}
+.title h2{
+    margin: 20rem 0 10rem 0;
+    color: var(--Gray-color);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+.title span{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: var(--Dark-color);
+}
+@media(min-width:1000px){
+    .project .title h2{
+        margin: 20rem 0 10rem 0;
+        color: var(--Gray-color);
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 33px;
+        width: 291px;
+        height: 142px;
+    }
 }
