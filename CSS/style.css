@@ -344,6 +344,15 @@ body.menu-expanded ul .social {
         line-height: 28px;
         padding-inline: 0rem;
      }
+     .cardpreco-wranper{
+        display: flex;
+     }
+     .cardpreco2-wranper{
+        display: flex;
+     }
+     .cardpreco3-wranper{
+        display: block;
+     }
      
  }
 .Testimony{
@@ -888,7 +897,7 @@ footer p{
         width: 65rem;
         height: 5rem;
         margin-top: -20rem;
-        margin-bottom: 20rem;
+        margin-bottom: 10rem;
     }
     .abourt .grupotext h2{
         font-weight: 700;
@@ -899,6 +908,9 @@ footer p{
         letter-spacing: 0.05em;
         
     }
+    .abourt .grupotext h3{
+        text-align: left;
+    }
     .abourt p{
         text-align: left;
         font-weight: 400;
@@ -908,7 +920,7 @@ footer p{
     .abourt-imagem{
         position: relative;
         display: block;
-        top: -7rem;
+        top: -6rem;
         left: 80rem;
     }
     .why{
@@ -964,7 +976,7 @@ footer p{
     margin:6rem  auto 0 auto;
     width: 350px;
     height: 73.5rem;
-    border: 3px solid #87C232;
+    border: 3px solid var(--Dark-color);
 }
 .preco  h1{
    
@@ -1059,16 +1071,15 @@ footer p{
 
     text-align: left;
 }
-.cardpreco3-wranper{
+/* .cardpreco3-wranper{
     display: none;
-}
+} */
 
 @media(min-width:1000px){
     .preco{
         padding-inline: 9.4rem;
     }
-    .cardpreco2-wranper,.cardpreco3-wranper, .cardpreco-wranper{
-        display: flex;
+    .cardpreco2-wranper,.cardpreco3-wranper{
         margin-inline: 9.4rem;
     }
     .cardpreco2 {
@@ -1089,6 +1100,11 @@ footer p{
     color: var(--Dark-color);
 }
 @media(min-width:1000px){
+    .projectp{
+        display: flex;
+        flex-direction: column;
+
+    }
     .project .title h2{
         margin: 20rem 0 10rem 0;
         color: var(--Gray-color);
@@ -1097,5 +1113,9 @@ footer p{
         line-height: 33px;
         width: 291px;
         height: 142px;
+    }
+    .CardWarperp{
+        display: flex;
+        width: 90rem;
     }
 }
