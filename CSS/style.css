@@ -1049,7 +1049,7 @@ footer p{
     line-height: 14px;
     background: var(--Primary-color);
     border-radius: 78px;
-    margin-block: 3rem;
+    margin-block:1rem;
 }
 .cardpreco2 .valoCard{
     font-weight: 500;
