@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 :root {
         font-size: 62.5%;
         /*1 rem = 10px*/
         --Primary-color: #87c232;
         --Secondary-color: #67C211;
-
         --Lightest-color: #ffffff;
         --Light-color: #f6f6f6;
         --Gray-color: #b3b3b3;
@@ -119,7 +117,7 @@ nav ul {
 
 }
 
-ul .social {
+ul .social,.marque .social ul{
     display: none;
     gap: 2rem;
 }
@@ -753,6 +751,7 @@ body.menu-expanded ul .social {
 } */
 
 footer{
+    margin-top: 4rem;
     height: 54.3rem;
     align-items: center;
     text-align: center;
@@ -1123,11 +1122,100 @@ footer p{
 .marque{
     display: block;
     position: relative;
-    top: 10.2rem;
+    padding: 2rem;
+    top: 14.2rem;
 }
 .marque h3{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: var(--Gray-color);
+}
+.marque h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+}
+.marque p{
+    color:var(--Gray-color);
+}
+
+
+.marque .form{
+
+    height: 60rem;
+    margin: 0 auto;
+}
+.marque input,textarea{
+    border-bottom-style: #000000 solid 2px;
+    padding: 2rem;
+    width: 40rem;
+    margin-bottom: 2rem;
+}
+.marque .col1{
+  display: none;
+}
+.marque .col2{
+    position: relative;
+    display: block;
+    height: 40rem;
+    width: 40rem;
+    margin:4rem auto 10rem auto;
+}
+@media(min-width:1000px){
+
+    .marque{
+        width: 50rem;
+        position: relative;
+        padding: 2rem;
+    }
+    .gtext{
+        width: 60rem;
+        height: 50rem;
+        text-align: left;
+        padding-left: 10rem;
+        margin: none;
+
+    }
+    .marque h3{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--Gray-color);
+    }
+    .marque h2{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 47px;
+        padding-block: 2rem;
+        color: #000000;
+    }
+    .marque p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 19px;
+        color:var(--Gray-color);
+    }
+    .marque .form{
+        position: relative;
+        top: -50rem;
+        left:80rem;
+        width: 65rem;
+        height: 10rem;
+        margin: 0 auto;
+    }
+    .marque .col1{
+        display: block;
+        position: relative;
+    display: block;
+    height: 40rem;
+    width: 145rem;
+    margin:4rem auto 10rem auto;
+      }
+      .marque .col2{
+          display: none;
+          
+      }
 }
