@@ -1,6 +1,6 @@
 # NSDEV-site
 
-![preview](./.github/preview.png)
+![preview](./.github/preview.jpeg)
 >NSDEV
 
 Projecto construido para obteção da nota do estágio
@@ -10,6 +10,7 @@ Projecto construido para obteção da nota do estágio
 - HTML
 - CSS
 - JavaScript
+- Google Maps
 - Git & Github
 ## contacto
 >https://github.com/valentimBeibyVB
