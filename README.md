@@ -1,6 +1,7 @@
 # NSDEV-site
 
 ![preview](./.github/preview.jpeg)
+![preview](./.github/mobile_preiview.jpeg)
 >NSDEV
 
 Projecto construido para obteção da nota do estágio
