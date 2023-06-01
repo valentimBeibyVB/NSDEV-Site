@@ -695,10 +695,7 @@ body.menu-expanded ul .social {
         justify-content: center;
         align-items: center;
     }
-    .mobile{
-        display: none;
-    }
-     .desktop{
+    .desktop{
         display: block;
     }
     .parceiro h2{
@@ -713,9 +710,7 @@ body.menu-expanded ul .social {
     }
    
 }
-.mobile{
-    display: none;
-}
+
 
 .call2{
     height: 65rem;
@@ -747,7 +742,7 @@ body.menu-expanded ul .social {
     display: none;
 }
 .mobile{
-    display: flex;
+    display: block;
 }
 
 footer{
